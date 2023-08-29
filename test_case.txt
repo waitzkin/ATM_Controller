@@ -1,0 +1,73 @@
+Account 0123: 100 dollar (s) deposited!
+Account 0124: 300 dollar (s) deposited!
+Account 0125: 400 dollar (s) deposited!
+Account 1123: 400 dollar (s) deposited!
+Account 1124: 300 dollar (s) deposited!
+Account 1125: 900 dollar (s) deposited!
+insert card [input card number] : 1234
+type PIN : 4321
+choose an account :
+1.0123
+2.0124
+3.0125
+0123
+what do you want to do? {balance, deposit, withdraw} : balance
+Account 0123: current balance is 100 dollar (s)
+do you done working with this account? [y/n]n
+what do you want to do? {balance, deposit, withdraw} : wthdraw
+you typed the wrong option. try again
+do you done working with this account? [y/n]n
+what do you want to do? {balance, deposit, withdraw} : withdraw
+how much ? [int input]:200
+Account 0123: Not enough money on bank!!
+do you done working with this account? [y/n]n
+what do you want to do? {balance, deposit, withdraw} : withdraw
+how much ? [int input]:50
+Account 0123: 50 dollar (s) sucessfully withdrawn
+do you done working with this account? [y/n]n
+what do you want to do? {balance, deposit, withdraw} : deposit
+how much ? [int input]:500
+Account 0123: 500 dollar (s) deposited!
+do you done working with this account? [y/n]n
+what do you want to do? {balance, deposit, withdraw} : withdraw
+how much ? [int input]:350
+Account 0123: 350 dollar (s) sucessfully withdrawn
+do you done working with this account? [y/n]y
+do you want to exit? [y/n]n
+insert card [input card number] : 1235
+type PIN : 5322
+wrong pin, try again
+type PIN : 5321
+choose an account :
+1.1123
+2.1124
+3.1125
+1125
+what do you want to do? {balance, deposit, withdraw} : balance
+Account 1125: current balance is 900 dollar (s)
+do you done working with this account? [y/n]n
+what do you want to do? {balance, deposit, withdraw} : withdraw
+how much ? [int input]:1000
+Account 1125: Not enough money on bank!!
+do you done working with this account? [y/n]n
+what do you want to do? {balance, deposit, withdraw} : withdraw
+how much ? [int input]:350
+Account 1125: 350 dollar (s) sucessfully withdrawn
+do you done working with this account? [y/n]n
+what do you want to do? {balance, deposit, withdraw} : balance
+Account 1125: current balance is 550 dollar (s)
+do you done working with this account? [y/n]n
+what do you want to do? {balance, deposit, withdraw} : withdraw
+how much ? [int input]:350
+Account 1125: 350 dollar (s) sucessfully withdrawn
+do you done working with this account? [y/n]n
+what do you want to do? {balance, deposit, withdraw} : balance
+Account 1125: current balance is 200 dollar (s)
+do you done working with this account? [y/n]y
+do you want to exit? [y/n]y
+-------- ATM Finished --------
+ATM Destructor
+
+--------------------------------
+Process exited after 190.8 seconds with return value 0
+계속하려면 아무 키나 누르십시오 . . .
